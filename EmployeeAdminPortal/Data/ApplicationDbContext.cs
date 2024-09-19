@@ -10,5 +10,11 @@ namespace EmployeeAdminPortal.Data
         }
 
         public DbSet<Employee> Employees { get; set; }
+
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlite("connectionstring");
+        //    base.OnConfiguring(optionsBuilder);
+        //}
     }
 }
